@@ -1,9 +1,7 @@
 var config = {
-			extraPlugins: 'widget,font,colordialog,tableresize,codesnippet,uploadimage,image2,embed,autoembed,mathjax',
+			extraPlugins: 'widget,font,colordialog,tableresize,codesnippet,uploadimage,image2,embed,autoembed',
 			codeSnippet_theme: 'monokai_sublime',
-			mathJaxLib: 'http://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-AMS_HTML',
 			width: '100%',
-			height: 667,
 
 			// Upload images to a CKFinder connector (note that the response type is set to JSON).
 			uploadUrl: './ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
@@ -14,7 +12,6 @@ var config = {
 			filebrowserUploadUrl: './ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
 			filebrowserImageUploadUrl: './ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
 
-			image2_alignClasses: [ 'image-align-left', 'image-align-center', 'image-align-right' ],
 			image2_disableResizer: true
 		};
 
